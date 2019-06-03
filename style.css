@@ -29,7 +29,6 @@
     width: 100%;
     border-radius: 50px;
     padding-top: 0px;
-    margin-left: 10px;
     display: flex;
     background-size: cover;
     max-width: 400px;
@@ -39,6 +38,7 @@
     width: 100%;
     display: flex;
     padding-top: 20px;
+    padding-left: 20px;
 } .bio {
     padding-left: 20px;
     padding-right: 20px;
@@ -46,16 +46,29 @@
 } .store-image {
     width: 100%;
     padding-top: 0px;
-    margin-left: 10px;
+    padding-left: 20px;
     display: flex;
     background-size: cover;
-    max-width: 400px;
-
+    max-width: 500px;
 } .tea-image {
     width: 100%;
     padding-top: 0px;
-    margin-left: 10px;
+    padding-left: 20px;
     display: flex;
     background-size: cover;
-    max-width: 400px;
+    max-width: 500px;
+} .projects {
+    padding: 10px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #4169E1;
+    font-size: 30px;
+} .project-desc {
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #4169E1;
+    font-family: 'Courier New', Courier, monospace;
+}
 /* } @media screen and (min-width 800px) {} */
